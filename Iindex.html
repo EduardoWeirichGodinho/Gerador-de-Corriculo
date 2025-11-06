@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Gerador de corriculo</title>
+  </head>
+
+  <body>
+    <header class="cabecalho" id="cabecalho">
+      <img src="icone.png" alt="Icone" class="img" />
+      <h4>Gerador de Corriculo</h4>
+    </header>
+
+    <section class="teste">
+      <form action="formulario.php" method="post" class="form">
+        <label for="Nome"></label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Nome completo"
+          required
+          class="texto"
+        />
+        <label for="Data de Nascimento"></label>
+        <input
+          type="date"
+          name="data_de_nascimento"
+          id="data_de_nascimento"
+          placeholder="Data de Nascimento"
+          required
+          class="texto"
+        />
+        <label for="Idade"></label>
+        <input
+          type="number"
+          name="Idade"
+          id="Idade"
+          placeholder="Idade"
+          required
+          class="texto"
+        />
+        <label for="E-mail"></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="E-mail"
+          required
+          class="texto"
+        />
+        <label for="Telefone"></label>
+        <input
+          type="text"
+          name="telefone"
+          id="telefone"
+          placeholder="Telefone"
+          required
+          class="texto"
+        />
+        <label for="Endereco"></label>
+        <input
+          type="text"
+          name="endereco"
+          id="endereco"
+          placeholder="Endereço"
+          required
+          class="texto"
+        />
+
+        <label for="Resumo Profissional"></label>
+        <input
+          type="text"
+          name="resumo_profissional"
+          id="resumo_profissional"
+          placeholder="Resumo Profissional"
+          required
+          class="texto2"
+        />
+
+        <label for="Experiencia"></label>
+        <input
+          type="button"
+          value="Experiencia"
+          id="Experiencia"
+          class="btn btn-dark"
+          onclick="addExperiencia()"
+        />
+
+        <label for="formacao"></label>
+        <input
+          type="button"
+          value="Formação"
+          id="formacao"
+          class="btn btn-dark"
+          onclick="adicionarFormacao()"
+        />
+
+        <label for="Resumo das Habilidades"></label>
+        <input
+          type="text"
+          name="resumo_habilidades"
+          id="resumo_habilidades"
+          placeholder="Resumo das Habilidades"
+          required
+          class="texto2"
+        />
+
+        <label for="Enviar"></label>
+        <input
+          type="submit"
+          value="Gerar Currículo"
+          id="enviar"
+          class="btn btn-success"
+        />
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
