@@ -2,13 +2,6 @@
 
 Este projeto é uma aplicação simples em HTML, PHP e Bootstrap que permite ao usuário preencher um formulário com suas informações pessoais, profissionais e acadêmicas, e gerar um currículo automaticamente.
 
-📁 Estrutura do Projeto
-/
-├── Iindex.html        # Página principal com o formulário
-├── formulario.php     # Script PHP que processa os dados enviados
-├── style.css          # (Opcional) Estilos personalizados
-├── script.js          # (Opcional) Scripts adicionais (para adicionar experiência/formação)
-└── icone.png          # Ícone exibido no cabeçalho
 
 🌐 Iindex.html
 
@@ -86,15 +79,11 @@ http://localhost/gerador-curriculo/Iindex.html
 
 Preencha o formulário e clique em “Gerar Currículo”.
 
-🧩 Funcionalidades Futuras (sugestões)
+🧩 Funcionalidades
 
 Adicionar múltiplas experiências e formações dinamicamente.
 
 Exportar currículo em PDF.
-
-Permitir upload de foto de perfil.
-
-Adicionar temas e modelos diferentes de currículo.
 
 📄 Licença
 
